@@ -27,7 +27,8 @@ function App() {
   };
   return (
     <div className=" h-full w-full flex items-center justify-center ">
-      <div className=" w-full h-full pt-96 flex flex-col items-center justify-center  ">
+      <div className=" w-full h-full  flex flex-col items-center justify-center  ">
+        <h1 className="text-3xl mb-14 text-blue-900 ">Toggle</h1>
         <div className=" w-fit h-fit text-3xl mb-5 text-blue-900 ">{state}</div>
         <button
           onClick={change}
